@@ -1,6 +1,6 @@
 "GameInfo"
 {
-	game					"Shlormby Fortress - Zip Build"
+	game					"Shlormby Fortress"
 	type 					multiplayer_only
 	nomodels				1
 	nohimodel 				1
