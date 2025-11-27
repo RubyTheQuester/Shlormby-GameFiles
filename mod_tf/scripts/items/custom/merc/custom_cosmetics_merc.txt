@@ -1,0 +1,122 @@
+"items_game"
+{	
+	"items"
+	{
+		"34900"
+		{
+			"name"	"Merc Vest None"
+			
+			"prefab"	"weapon_merc_wearable"
+			
+			"item_name"			"#TF_Merc_Vest_None"
+			"item_description"	"#TF_Merc_Vest_None_Desc"
+			
+			"item_slot"		"head"
+			"equip_region"	"grenades"
+			"item_quality"	"normal"
+			
+			"image_inventory"				"backpack\chest\vestless"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"					""
+			
+			
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"vest"			"1"
+				}
+			}
+		}
+		
+		"34901"
+		{
+			"name"	"Merc Vest Poucheless"
+			
+			"prefab"	"weapon_merc_wearable"
+			
+			"item_name"			"#TF_Merc_Vest_Poucheless"
+			"item_description"	"#TF_Merc_Vest_Poucheless_Desc"
+			
+			"item_slot"		"head"
+			"equip_region"	"grenades"
+			"item_quality"	"normal"
+			
+			"image_inventory"				"backpack\chest\pocketless"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"					""
+			
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"vest"			"2"
+				}
+			}
+			
+		}
+		
+		"34902"
+		{
+			"name"	"Merc Gloves Fingerless"
+			
+			"prefab"	"weapon_merc_wearable"
+			
+			"item_name"			"#TF_Merc_Gloves_Fingerless"
+			"item_description"	"#TF_Merc_Gloves_Fingerless_Desc"
+			
+			"item_slot"		"head"
+			"equip_region"	"medic_gloves"
+			"item_quality"	"normal"
+			
+			"image_inventory"				"backpack\gloves\fingerless"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"					""
+			
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"lefthand"			"2"
+					"righthand"			"2"
+				}
+			}
+			
+		}
+		
+		"34903"
+		{
+			"name"	"Merc Gloves None"
+			
+			"prefab"	"weapon_merc_wearable"
+			
+			"item_class"	"tf_wearable"
+			
+			"item_name"			"#TF_Merc_Gloves_None"
+			"item_description"	"#TF_Merc_Gloves_None_Desc"
+			
+			"item_slot"		"head"
+			"equip_region"	"medic_gloves"
+			"item_quality"	"normal"
+			
+			"image_inventory"				"backpack\gloves\bare"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"					""
+			
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"lefthand"			"3"
+					"righthand"			"3"
+				}
+			}
+			
+		}
+		// END OF THE OVERALL ITEMS LINE
+	}
+}
