@@ -9,33 +9,33 @@ server.pdb
 
 /game/tf
 
-mod_tf/cfg/local_loadout.txt
-mod_tf/cfg/server_blacklist.txt
-mod_tf/cfg/settings.scr
-mod_tf/GameState.txt
-mod_tf/ServerConfig.vdf
-mod_tf/stats.txt
-mod_tf/voice_ban.dt
-mod_tf/media/viewed.res
-mod_tf/tf2_playerstats.dmx
-mod_tf/cfg/user.scr
-mod_tf/game/mod_tf.zip
+/mod_tf/cfg/local_loadout.txt
+/mod_tf/cfg/server_blacklist.txt
+/mod_tf/cfg/settings.scr
+/mod_tf/GameState.txt
+/mod_tf/ServerConfig.vdf
+/mod_tf/stats.txt
+/mod_tf/voice_ban.dt
+/mod_tf/media/viewed.res
+/mod_tf/tf2_playerstats.dmx
+/mod_tf/cfg/user.scr
+/mod_tf/game/mod_tf.zip
 
-mod_tf/custom
-mod_tf/downloadlists
-mod_tf/scripts/items/unused
-mod_tf/download
-mod_tf/materials/temp
-mod_tf/materials/vgui/logos
+/mod_tf/custom
+/mod_tf/downloadlists
+/mod_tf/scripts/items/unused
+/mod_tf/download
+/mod_tf/materials/temp
+/mod_tf/materials/vgui/logos
 
-mod_tf/scripts/vscripts/solo/balancing/unused
+/mod_tf/scripts/vscripts/solo/balancing/unused
 
-mod_tf/cfg/local_loadout_*.txt
-mod_tf/cfg/solo/save_*.txt
-mod_tf/cfg/solo/save_73117512.txt
-mod_tf/scriptdata/merc/merc_bloodthirst/savedata.nut
-mod_tf/scriptdata/merc/merc_headhunt/savedata.nut
-mod_tf/workshop_localcache.txt
+/mod_tf/cfg/local_loadout_*.txt
+/mod_tf/cfg/solo/save_*.txt
+/mod_tf/cfg/solo/save_73117512.txt
+/mod_tf/scriptdata/merc/merc_bloodthirst/savedata.nut
+/mod_tf/scriptdata/merc/merc_headhunt/savedata.nut
+/mod_tf/workshop_localcache.txt
 
 *.7z
 *.cache
