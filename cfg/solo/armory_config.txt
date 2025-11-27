@@ -1,0 +1,31 @@
+#base armory/armory_live.txt
+
+#base armory/armory_gamma_weapons.txt
+
+#base armory/merc/armory_merc_weapons.txt
+#base armory/merc/armory_merc_comestics.txt
+#base armory/merc/armory_merc_taunts.txt
+
+#base armory/valve/armory_valve_weapons.txt
+#base armory/valve/armory_valve_cosmetics.txt
+#base armory/valve/armory_valve_taunts.txt
+
+#base armory/community/armory_community_weapons.txt
+#base armory/community/armory_community_cosmetics.txt
+#base armory/community/armory_community_taunts.txt
+
+#base armory/solo/armory_solo_tools.txt
+
+//#base armory/valve/armory_valve_decorated.txt
+
+//#base armory/misc/armory_steam.txt
+
+//#base armory/solo/armory_solo_standins.txt
+//#base armory/solo/armory_solo_cosmetics.txt
+//#base armory/solo/armory_solo_weapons.txt
+//#base armory/solo/armory_solo_taunts.txt
+
+armory_config
+{
+	
+}

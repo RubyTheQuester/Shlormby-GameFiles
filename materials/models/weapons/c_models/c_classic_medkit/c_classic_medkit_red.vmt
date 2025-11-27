@@ -1,0 +1,45 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" 	"models/weapons/c_models/c_classic_medkit/c_classic_medkit_red"
+	"$bumpmap" 	"models/weapons/c_models/c_classic_medkit/c_classic_medkit_normal"
+	
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" "5"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"	"[.3 .5 3]"
+	
+	"$halflambert" "1"
+	
+	"$rimlight" "1"						
+	"$rimlightexponent" "20"				
+	"$rimlightboost" ".25"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	
+	// Glow
+	$glowcolor 1
+
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+	}
+}
+

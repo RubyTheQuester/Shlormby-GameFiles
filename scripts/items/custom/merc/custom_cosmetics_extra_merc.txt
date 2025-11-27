@@ -1,0 +1,257 @@
+"items_game"
+{	
+	"items"
+	{
+		"34904"
+		{
+			"name"	"Doom Vest"
+			
+			"prefab"	"weapon_merc_wearable"
+			
+			"item_name"			"#TF_Merc_Doomguy_Doomvest"
+			"item_description"	"#TF_Merc_Doomguy_Doomvest_Desc"
+			
+			"item_slot"		"head"
+			"equip_region"	"grenades"
+			"item_quality"	"normal"
+			
+			"image_inventory"				"backpack/chest/doomarmor"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"					"models/player/items/mercenary/merc_doomarmor/merc_doomarmor.mdl"
+			
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"vest"			"1"
+				}
+			}
+		}
+		
+		"34905"
+		{
+			"name"	"Doom Helmet"
+			
+			"prefab"	"weapon_merc_wearable"
+			
+			"item_name"			"#TF_Merc_Doomguy_DoomHelmet"
+			"item_description"	"#TF_Merc_Doomguy_DoomHelmet_Desc"
+			
+			"item_slot"		"head"
+			"equip_region"	"hat"
+			"item_quality"	"normal"
+			
+			"image_inventory"				"backpack/hats/doomguy"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"					"models/player/items/mercenary/doomguy/doomguy.mdl"
+			
+		}
+		
+		"34906"
+		{
+			"name"	"Engineer Overalls"
+			
+			"prefab"	"weapon_merc_wearable"
+			
+			"item_name"			"#TF_Merc_Engineer_Overalls"
+			"item_description"	"#TF_Merc_Engineer_Overalls_Desc"
+			
+			"item_slot"		"head"
+			"equip_region"	"shirt"
+			"item_quality"	"normal"
+			
+			"image_inventory"				"backpack/chest/merc_overalls"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"					"models/player/items/mercenary/merc_engineer_overalls/merc_engineer_overalls.mdl"
+			
+			
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"torso"			"1"
+					"leftarm"			"1"
+					"rightarm"			"1"
+					"vest"			"1"
+				}
+			}
+		}
+		
+		"34907"
+		{
+			"name"	"Western Hat"
+			
+			"prefab"	"weapon_merc_wearable"
+			
+			"item_name"			"#TF_Merc_WesternHat"
+			"item_description"	"#TF_Merc_WesternHat_Desc"
+			
+			"item_slot"		"head"
+			"equip_region"	"hat"
+			"item_quality"	"normal"
+			
+			"image_inventory"				"backpack/hats/western_hat"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"					"models/player/items/mercenary/western_hat/western_hat.mdl"
+			
+		}
+		
+		"34908"
+		{
+			"name"	"BlackMesa Vest"
+			
+			"prefab"	"weapon_merc_wearable"
+			
+			"item_name"			"#TF_Merc_BlackMesa_Vest"
+			"item_description"	"#TF_Merc_BlackMesa_Vest_Desc"
+			
+			"item_slot"		"head"
+			"equip_region"	"grenades"
+			"item_quality"	"normal"
+			
+			"image_inventory"				"backpack/chest/bvest"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"					"models/player/items/mercenary/merc_bvest/merc_bvest.mdl"
+			
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"vest"			"1"
+				}
+			}
+		}
+		
+		"34909"
+		{
+			"name"	"BlackMesa Helmet"
+			
+			"prefab"	"weapon_merc_wearable"
+			
+			"item_name"			"#TF_Merc_BlackMesa_Helmet"
+			"item_description"	"#TF_Merc_BlackMesa_Helmet_Desc"
+			
+			"item_slot"		"head"
+			"equip_region"	"hat"
+			"item_quality"	"normal"
+			
+			"image_inventory"				"backpack/hats/bhelm"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"					"models/player/items/mercenary/merc_bhelm/merc_bhelm.mdl"
+			
+			
+		}
+		
+		"34910"
+		{
+			"name"	"Pants Socks"
+			
+			"prefab"	"weapon_merc_wearable"
+			
+			"item_name"			"#TF_Merc_PantsSocks"
+			"item_description"	"#TF_Merc_PantsSocks_Desc"
+			
+			"item_slot"		"head"
+			"equip_region"	"pants"
+			"item_quality"	"normal"
+			
+			"image_inventory"				"backpack/pants/merc_socks"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"					"models/player/items/mercenary/merc_pants_socks/merc_pants_socks.mdl"
+			
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"leftleg"			"1"
+					"rightleg"			"1"
+					"pockets"			"1"
+				}
+			}
+		}
+		
+		"34911"
+		{
+			"name"	"Flak Jacket"
+			
+			"prefab"	"weapon_merc_wearable"
+			
+			"item_name"			"#TF_Merc_FlakJacket"
+			"item_description"	"#TF_Merc_FlakJacket_Desc"
+			
+			"item_slot"		"head"
+			"equip_region"	"grenades"
+			"item_quality"	"normal"
+			
+			"image_inventory"				"backpack/chest/flak_jacket"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"					"models/player/items/mercenary/merc_flak_jacket/merc_flak_jacket.mdl"
+			
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"vest"			"1"
+				}
+			}
+		}
+		
+		"34912"
+		{
+			"name"	"Fingerless Gloves Alt"
+			
+			"prefab"	"weapon_merc_wearable"
+			
+			"item_name"			"#TF_Merc_FingerlessGloves"
+			"item_description"	"#TF_Merc_FingerlessGloves_Desc"
+			
+			"item_slot"		"head"
+			"equip_region"	"medic_gloves"
+			"item_quality"	"normal"
+			
+			"image_inventory"				"backpack\gloves\merc_flglovesicon"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"					"models/player/items/mercenary/merc_flgloves/merc_flgloves.mdl"
+			
+			"visuals"
+			{
+				"player_bodygroups"
+				{
+					"lefthand"			"3"
+					"righthand"			"3"
+				}
+			}
+			
+		}
+		
+		"34913"
+		{
+			"name"	"Race Helmet"
+			
+			"prefab"	"weapon_merc_wearable"
+			
+			"item_name"			"#TF_Merc_RaceHelmet"
+			"item_description"	"#TF_Merc_RaceHelmet_Desc"
+			
+			"item_slot"		"head"
+			"equip_region"	"hat"
+			"item_quality"	"normal"
+			
+			"image_inventory"				"backpack/hats/race"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"					"models/player/items/mercenary/merc_race/merc_race.mdl"
+		}
+		
+		// END OF THE OVERALL ITEMS LINE
+	}
+}

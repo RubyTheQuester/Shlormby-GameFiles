@@ -1,0 +1,171 @@
+"items_game"
+{
+	"prefabs"
+	{
+		"weapon_shotgun_multiclass"
+		{
+			"used_by_classes"
+			{
+				"engineer"	"primary"
+				"soldier"	"secondary"
+				"pyro"		"secondary"
+				"heavy"		"secondary"
+				"mercenary"	"secondary"
+			}
+		}
+		
+		"weapon_russian_riot"
+		{
+			"used_by_classes"
+			{
+				"engineer"	"primary"
+				"soldier"	"secondary"
+				"pyro"		"secondary"
+				"heavy"		"secondary"
+				"mercenary"	"secondary"
+			}
+		}
+		
+		"weapon_reserve_shooter"
+		{
+			"used_by_classes"
+			{
+				"soldier"	"1"
+				"pyro"		"1"
+				"mercenary"	"1"
+			}
+		}
+		
+		"weapon_trenchgun"
+		{
+			"used_by_classes"
+			{
+				"engineer"	"primary"
+				"pyro" 		"secondary"
+				"soldier" 	"secondary"
+				"heavy" 	"secondary"
+				"mercenary"	"secondary"
+			}
+		}
+		
+		"weapon_gunboats"
+		{
+			"used_by_classes"
+			{
+				"soldier"	"1"
+				"demoman"	"primary"
+			}
+		}
+		
+		"weapon_winger_pistol"
+		{
+			"used_by_classes"
+			{
+				"engineer"	"1"
+				"scout" "1"
+			}
+		}
+		
+		"weapon_melee_allclass"
+		{
+			"reskin" "1"
+			
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"spy"		"1"
+				"engineer"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"pyro" 		"1"
+			}
+		}
+		
+		"halloween2013_spellbook"
+		{
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
+				"pyro" 		"1"
+				"mercenary" "1"
+			}
+		}
+		
+		"powerup_bottle"
+		{
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
+				"pyro" 		"1"
+				"mercenary" "1"
+			}
+		}
+	}
+	
+	"items"
+	{
+		"413"
+		{
+			"visuals"
+			{
+				"animation_replacement"
+				{
+					"ACT_MELEE_VM_INSPECT_START"	"ACT_MELEE_ALLCLASS_VM_INSPECT_START"
+					"ACT_MELEE_VM_INSPECT_IDLE"		"ACT_MELEE_ALLCLASS_VM_INSPECT_IDLE"
+					"ACT_MELEE_VM_INSPECT_END"		"ACT_MELEE_ALLCLASS_VM_INSPECT_END"
+				}
+			}
+		}
+		
+		"444"
+		{
+			"used_by_classes"
+			{
+				"soldier"	"1"
+				"demoman"	"primary"
+			}
+		}
+		"773"
+		{
+			"used_by_classes"
+			{
+				"engineer"	"1"
+				"scout" "1"
+			}
+		}
+		
+		"1152"
+		{
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"		"1"
+				"heavy"		"1"
+				"spy" 		"1"
+				"engineer" 	"1"
+				"pyro" 		"1"
+				"mercenary" "1"
+			}
+		}
+	}
+}

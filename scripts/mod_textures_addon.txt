@@ -1,0 +1,236 @@
+"sprites/640_hud"
+{
+
+	TextureFileRefs
+	{
+		"dfile"
+		{
+			"prefix"		"d_"
+		}
+		"dnegfile"
+		{
+			"prefix"		"dneg_"
+		}
+	}
+	
+	TextureData
+	{
+	
+		//OF ports
+		
+		"crowbar"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile"	"HUD/dneg_images_of"
+				"x"		"0"
+				"y"		"30"
+				"width"		"84"
+				"height"	"33"
+		}
+		
+		"lead_pipe"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"282"
+				"y"		"134"
+				"width"		"106"
+				"height"	"32"
+		}
+		
+		"combatknife"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"0"
+				"y"		"322"
+				"width"		"110"
+				"height"	"33"
+		}
+		
+		"pistol_mercenary"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"128"
+				"y"		"1"
+				"width"		"75"
+				"height"	"28"
+		}
+		
+		"revolver_mercenary"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"126"
+				"y"		"207"
+				"width"		"66"
+				"height"	"34"
+		}
+		
+		"super_shotgun"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"0"
+				"y"		"98"
+				"width"		"124"
+				"height"	"24"
+		}
+		
+		"assaultrifle"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"0"
+				"y"		"161"
+				"width"		"122"
+				"height"	"28"
+		}
+		
+		"grenadelauncher_mercenary"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"126"
+				"y"		"69"
+				"width"		"121"
+				"height"	"27"
+		}	
+		
+		"rocketlauncher_mercenary"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"0"
+				"y"		"289"
+				"width"		"113"
+				"height"	"33"
+		}
+		
+		
+		"tf_projectile_bouncyrocket"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"375"
+				"y"		"169"
+				"width"		"102"
+				"height"	"34"
+		}
+		
+		"tfc_weapon_medkit"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"291"
+				"y"		"384"
+				"width"		"75"
+				"height"	"32"
+		}
+		
+		"poison"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"127"
+				"y"		"164"
+				"width"		"82"
+				"height"	"38"
+		}
+		
+		"berserk"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"0"
+				"y"		"355"
+				"width"		"71"
+				"height"	"34"
+		}
+
+		"taunt_mercenary"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"300"
+				"y"		"166"
+				"width"		"75"
+				"height"	"35"
+		}
+		
+		"killiconofsin"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"400"
+				"y"		"65"
+				"width"		"77"
+				"height"	"32"
+		}
+		
+		//PF2 ports	
+		
+		"syringe"
+		{
+				"dfile"	"HUD/d_images_pf"
+				"dnegfile"	"HUD/dneg_images_pf"
+				"x"		"0"
+				"y"		"64"
+				"width"		"96"
+				"height"	"32"
+		}
+		
+		"smg_medic"
+		{
+				"dfile"	"HUD/d_images_pf"
+				"dnegfile"	"HUD/dneg_images_pf"		
+				"x"		"285"
+				"y"		"0"
+				"width"		"81"
+				"height"	"40"
+		}
+		
+		// 	Custom entries (mostly ports)
+		"shotgun_mercenary"
+		{
+				"dfile"	"HUD/d_images"
+				"dnegfile"	"HUD/dneg_images"
+				"x"		"0"
+				"y"		"256"
+				"width"		"96"
+				"height"	"32"
+		}
+		
+		"telefrag"
+		{
+				"dfile"	"HUD/d_images_of"
+				"dnegfile" "HUD/dneg_images_of"
+				"x"		"201"
+				"y"		"209"
+				"width"		"51"
+				"height"	"47"
+		}
+		
+		
+		"tranq_dart"
+		{
+				"dfile"	"HUD/d_images_pf"
+				"dnegfile"	"HUD/dneg_images_pf"
+				"x"		"0"
+				"y"		"32"
+				"width"		"96"
+				"height"	"32"
+		}
+		
+		"tranq"
+		{
+				"dfile"	"HUD/d_images_pf"
+				"dnegfile"	"HUD/dneg_images_pf"
+				"x"		"0"
+				"y"		"32"
+				"width"		"96"
+				"height"	"32"
+		}	
+	}
+}

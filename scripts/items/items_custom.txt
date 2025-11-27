@@ -1,0 +1,117 @@
+#base items_game.txt
+#base items_attributes.txt
+
+#base custom/custom_items.txt
+#base vanilla/vanilla_items.txt
+#base solo/solo_items.txt
+
+"items_game"
+{
+	"qualities"
+	{
+		"armory"
+		{
+			"value" 	"23"
+		}
+		
+		"moditem"
+		{
+			"value" 	"24"
+		}
+		
+		"moditem_testing"
+		{
+			"value" 	"25"
+		}
+		"moditem_oddity"
+		{
+			"value" 	"26"
+		}
+		
+		"moditem_rebalance"
+		{
+			"value" 	"27"
+		}
+		"moditem_newstats"
+		{
+			"value" 	"28"
+		}
+	}
+	
+	"prefabs"
+	{
+		"moditem_prefab"
+		{
+			"show_in_armory"	"1"
+			
+			"customitem" 				"1"
+			"customitem_armory" 		"1"
+			
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			
+			"item_quality"	"moditem"
+			"min_ilevel"	"5"
+			"max_ilevel"	"5"
+		}
+		
+		"moditem_merc_prefab"
+		{
+			"prefab" "moditem_prefab"
+			
+			"attach_to_hands"				"0"
+			"model_attach_to_hands"			"1"
+			
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			
+			"used_by_classes"
+			{
+				"mercenary"	"1"
+			}
+		}
+		
+		"moditem_testing_prefab"
+		{
+			"prefab" "moditem_prefab"
+			
+			"item_quality"	"moditem_testing"
+			"min_ilevel"	"50"
+			"max_ilevel"	"50"
+		}
+		
+		"moditem_oddity_prefab"
+		{
+			"prefab" "moditem_prefab"
+			"usable_by_bots" "0"
+			
+			"item_quality"	"moditem_oddity"
+			"min_ilevel"	"100"
+			"max_ilevel"	"100"
+		}
+		
+		"moditem_reskin_prefab"
+		{
+			"prefab" "moditem_prefab"
+			"usable_by_bots" "0"
+			
+			"customitem" 		"0"
+			
+			"item_quality"	"rarity2"
+			"min_ilevel"	"0"
+			"max_ilevel"	"0"
+		}
+	}
+	
+	"armory_data"
+	{
+		"armory_items"
+		{
+			"action"					""
+			"charity"					""
+			"can_customize_texture"		""
+			"tournamentmedal"			""
+			"duckbadge"					""
+		}
+	}
+}

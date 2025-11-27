@@ -1,0 +1,126 @@
+VERSION 1.0
+
+DESCRIPTION SERVER_OPTIONS
+{
+	"sv_lan"
+	{
+		"LAN connections only"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"mp_timelimit"
+	{
+		"#TF_Timelimit"
+		{ NUMBER 0 -1 }
+		{ "0" }
+	}
+
+	"mp_winlimit"
+	{
+		"#TF_WinLimit"
+		{ NUMBER 0 -1 }
+		{ "0" }
+	}
+
+	"mp_maxrounds"
+	{
+		"#TF_MaxRounds"
+		{ NUMBER 0 -1 }
+		{ "0" }
+	}
+
+	"tf_bot_quota"
+	{
+		"Bot Count"
+		{ NUMBER 0 31 }
+		{ "23" }
+	}
+	
+	"tf_bot_quota_use_presets"
+	{
+		"Bots Use Preset Loadouds"
+		{ BOOL }
+		{ "1" }
+	}
+	
+	"tf_bot_difficulty"
+	{
+		"Bot Difficulty"
+		{
+			LIST
+			"Easy" "0"
+			"Normal" "1"
+			"Hard" "2"
+			"Expert" "3"
+			"Random" "4"
+		}
+		{ "1" }
+	}
+	
+	"tf_mirrormode"
+	{
+		"Mirror Mode"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"tf_vision_force"
+	{
+		"Force Vision"
+		{
+			LIST
+			"Default" "0"
+			"Pyrovision" "1"
+		}
+		{ "0" }
+	}
+
+	"mp_disable_respawn_times"
+	{
+		"Disable Respawn Times"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"tf_grapplinghook_enable"
+	{
+		"Enable Grappling Hooks"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"tf_revives_enable"
+	{
+		"Revives"
+		{
+			LIST
+			"Disabled" "0"
+			"Medic Revives Only" "1"
+			"Stay Nearby To Revive" "2"
+		}
+		{ "0" }
+	}
+	
+	"tf_medieval"
+	{
+		"Enable Medieval Mode"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"tf_spells_enabled"
+	{
+		"Enable Halloween Spells"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"tf_player_spell_drop_on_death_rate"
+	{
+		"Halloween Spell On Death Chance"
+		{ NUMBER 0.0 1.0 }
+		{ "0" }
+	}
+	
+}

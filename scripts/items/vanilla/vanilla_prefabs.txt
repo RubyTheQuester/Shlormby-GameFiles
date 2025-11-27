@@ -1,0 +1,69 @@
+"items_game"
+{
+
+	"prefabs"
+	{
+	
+		"weapon_buff_knife"
+		{
+			"prefab"	"weapon_spy_knife_item2"
+			
+			"attributes"
+			{
+				"mult cloak meter consume rate"
+				{
+					"attribute_class"	"mult_cloak_meter_consume_rate"
+					"value" "1.33"
+				}
+				"buff on backstab"
+				{
+					"attribute_class"	"backstab_buff"
+					"value" "1"
+				}
+				"max health additive penalty"
+				{
+					"attribute_class"	"add_maxhealth"
+					"value" "-10"
+				}
+				"move speed penalty"
+				{
+					"attribute_class"	"mult_player_movespeed"
+					"value"	"0.90"
+				}
+			}
+		}
+		
+		
+		"weapon_capper"
+		{
+			"prefab"		"weapon_pistol"
+			"item_class"	"tf_weapon_pistol_charge"
+			
+			"static_attrs"
+			{
+				"energy weapon no ammo"					"1"
+				"energy weapon no hurt building"		"1"
+			}
+			
+			"attributes"
+			{
+				"fire rate penalty"
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value" "1.25"
+				}
+				"minicrit_boost_charge_rate"
+				{
+					"attribute_class" "minicrit_boost_charge_rate"
+					"value" "1"
+				}
+				"minicrit_boost_when_charged"
+				{
+					"attribute_class" "minicrit_boost_when_charged"
+					"value" "8"
+				}
+			}
+		}
+	}
+	
+}

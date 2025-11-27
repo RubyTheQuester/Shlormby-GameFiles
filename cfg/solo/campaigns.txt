@@ -1,0 +1,7 @@
+#base campaigns/campaigns_solo.txt
+#base campaigns/campaigns_live.txt
+
+"campaigns"
+{
+	
+}

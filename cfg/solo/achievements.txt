@@ -1,0 +1,6 @@
+#base achievements/achievements_solo.txt
+
+achievements
+{
+	
+}

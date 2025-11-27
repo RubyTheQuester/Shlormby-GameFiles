@@ -1,0 +1,641 @@
+"items_game"
+{
+
+	"attributes"
+	{
+		"3500"
+		{
+			"name"				"taunt force signature weapon"
+			"attribute_class"	"taunt_force_signature_weapon"
+			"attribute_type"	"string"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"neutral"
+		}
+		
+		"3501"
+		{
+			"name"				"mult_dmg_vs_same_class"
+			"attribute_class"	"mult_dmg_vs_same_class"
+			"description_string"	"#Attrib_DamageSameClass"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		
+		"3502"
+		{
+			"name"				"wet_immunity"
+			"attribute_class"	"wet_immunity"
+			"description_string"	"#Attrib_WetImmunity"
+			"description_format"	"value_is_additive"
+			"hidden"			"0"
+			"effect_type"	"positive"
+			"armory_desc"	"on_wearer"
+			"stored_as_integer"	"1"
+		}
+		
+		"3503"
+		{
+			"name"				"can_breathe_under_water"
+			"attribute_class"	"can_breathe_under_water"
+			"description_string"	"#Attrib_BreatheUnderWater"
+			"description_format"	"value_is_additive"
+			"hidden"			"0"
+			"effect_type"	"positive"
+			"armory_desc"	"on_wearer"
+			"stored_as_integer"	"1"
+		}
+		
+		"3504"
+		{
+			"name"				"add_give_health_to_teammate_on_hit"
+			"attribute_class"	"add_give_health_to_teammate_on_hit"
+			"description_string"	"#Attrib_GiveHealthToTeamOnHit"
+			"description_format"	"value_is_additive"
+			"hidden"			"0"
+			"effect_type"	"neutral"
+			"stored_as_integer"	"0"
+		}
+		
+		"3505"
+		{
+			"name"				"last_shot_crits"
+			"attribute_class"	"last_shot_crits"
+			"description_string"	"#Attrib_LastShotCrits"
+			"description_format"	"value_is_additive"
+			"hidden"			"0"
+			"stored_as_integer"	"1"
+			"effect_type"	"positive"
+		}
+		
+		"3506"
+		{
+			"name"				"extra_damage_on_hit"
+			"attribute_class"	"extra_damage_on_hit"
+			"description_string"	"#Attrib_ExtraDamageOnHit"
+			"description_format"	"value_is_additive"
+			"hidden"			"0"
+			"effect_type"	"positive"
+		}
+		
+		"3507"
+		{
+			"name"				"swimming_mastery"
+			"attribute_class"	"swimming_mastery"
+			"description_string"	"#Attrib_SwimmingMastery"
+			"description_format"	"value_is_additive"
+			"hidden"			"0"
+			"effect_type"	"positive"
+			"armory_desc"	"on_wearer"
+			"stored_as_integer"	"1"
+		}
+		
+		"3508"
+		{
+			"name"				"keep disguise on attack"
+			"attribute_class"	"keep_disguise_on_attack"
+			"description_string"	"#Attrib_KeepDisguiseOnAttack"
+			"description_format"	"value_is_additive"
+			"hidden"			"0"
+			"effect_type"	"positive"
+			"armory_desc"	"on_wearer"
+			"stored_as_integer"	"1"
+		}
+		
+		"3509"
+		{
+			"name"				"can holster while deploy"
+			"attribute_class"	"mod_minigun_can_holster_while_spinning"
+			"description_string"	"#Attrib_MinigunHolsterSpinning"
+			"description_format"	"value_is_additive"
+			"hidden"			"0"
+			"effect_type"	"positive"
+			"armory_desc"	"on_wearer"
+			"stored_as_integer"	"1"
+		}
+		
+		"3510"
+		{
+			"name"				"sapper_deploy_time"
+			"attribute_class"	"sapper_deploy_time"
+			"description_string"	"#Attrib_SapperDeployTime_Negative"
+			"description_format"	"value_is_percentage"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		
+		"3511"
+		{
+			"name"				"dispenser disguise"
+			"attribute_class"	"disguise_as_dispenser_on_crouch"
+			"description_string"	"#Attrib_CrouchDisguiseAsDispenser"
+			"description_format"	"value_is_additive"
+			"effect_type"	"negative"
+			"armory_desc"	"on_wearer"
+			"stored_as_integer"	"0"
+		}
+		
+		"3512"
+		{
+			"name"				"sniper beep"
+			"attribute_class"	"sniper_beep_with_enemy_under_crosshair"
+			"description_string"	"#Attrib_SniperBeepEnemyCrosshair"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"neutral"
+			"stored_as_integer"	"0"
+		}
+		
+		"3513"
+		{
+			"name"				"mult sniper charge under crosshair"
+			"attribute_class"	"mult_sniper_charge_per_sec_with_enemy_under_crosshair"
+			"description_string"	"#Attrib_SniperChargeEnemyCrosshair"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		
+		"3514"
+		{
+			"name"	"arrows_explode_time"
+			"attribute_class"	"arrows_explode_time"
+			"description_string"	"#Attrib_ArrowsExplodeTime"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		
+		"3515"
+		{
+			"name"	"sapper_no_buildings"
+			"attribute_class"	"sapper_no_buildings"
+			"description_string"	"#Attrib_SapperNoBuildings"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		
+		"3516"
+		{
+			"name"	"sapper_on_players"
+			"attribute_class"	"sapper_on_players"
+			"description_string"	"#Attrib_SapperOnPlayers"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		
+		"3517"
+		{
+			"name"	"invis_allow_deploy_firing"
+			"attribute_class"	"invis_allow_deploy_firing"
+			"description_string"	"#Attrib_InvisAllowDeployFiring"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		
+		"3518"
+		{
+			"name"	"invis_reset_meter_holster"
+			"attribute_class"	"invis_reset_meter_holster"
+			"description_string"	"#Attrib_InvisResetMeterHolster"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"armory_desc"	"on_wearer"
+			"stored_as_integer"	"0"
+		}
+		
+		"3519"
+		{
+			"name"	"invis_cloak_type_bounce"
+			"attribute_class"	"set_weapon_mode"
+			"description_string"	"#Attrib_CloakIsBounce"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"neutral"
+			"armory_desc"	"cloak_type"
+			"stored_as_integer"	"0"
+		}
+		
+		"3520"
+		{
+			"name"	"sapper_recharge_time"
+			"attribute_class"	"sapper_recharge_time"
+			"description_string"	"#Attrib_SapperRechargeTime"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		
+		"3521"
+		{
+			"name"	"no backstab"
+			"attribute_class"	"knife_no_backstab"
+			"description_string"	"#Attrib_KnifeNoBackstab"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		
+		"3522"
+		{
+			"name"				"airblast pushback disabled"
+			"attribute_class"	"airblast_pushback_disabled"
+			"description_string"	"#Attrib_Airblast_Pushback_Disabled"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		
+		"3523"
+		{
+			"name"				"airblast turn projectile to ammo"
+			"attribute_class"	"airblast_turn_projectile_to_ammo"
+			"description_string"	"#Attrib_Airblast_Ammopack"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"neutral"
+			"stored_as_integer"	"0"
+		}
+		
+		"3524"
+		{
+			"name"				"buff on backstab"
+			"attribute_class"	"backstab_buff"
+			"description_string"	"#Attrib_BuffBackstab"
+			"description_format"	"value_is_additive"
+			"hidden"			"0"
+			"stored_as_integer"	"1"
+		}
+		
+		"3525"
+		{
+			"name"				"syringe heal"
+			"attribute_class"	"syringe_heal"
+			"description_string"	"#Attrib_SyringeHeal"
+			"description_format"	"value_is_additive"
+			"hidden"			"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		
+		"3526"
+		{
+			"name"				"MORTAR single redirect"
+			"attribute_class"	"mortar_single_redirect"
+			"description_string"	"#Attrib_Mortar_Redirect_Single"
+			"description_format"	"value_is_additive"
+			"hidden"			"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		
+		"3527"
+		{
+			"name"				"MORTAR redirect DISPLAY"
+			"attribute_class"	"mortar_redirect_display"
+			"description_string"	"#Attrib_Mortar_Redirect"
+			"description_format"	"value_is_additive"
+			"hidden"			"0"
+			"effect_type"	"neutral"
+			"stored_as_integer"	"0"
+		}
+		
+		"3528"
+		{
+			"name"				"sniper zoom bonus"
+			"attribute_class"	"mult_zoom_fov"
+			"description_string"	"#Attrib_SniperZoom_Bonus"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		
+		"3529"
+		{
+			"name"				"tranq slowdown"
+			"attribute_class"	"fires_slow_tranq"
+			"description_string"	"#Attrib_Tranq_Slow"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"neutral"
+			"stored_as_integer"	"1"
+		}
+		
+		"3530"
+		{
+			"name"	"sniper crit no scope true"
+			"attribute_class"	"sniper_crit_no_scope"
+			"description_string"	"#Attrib_SniperCritNoScopeTrue"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+		}
+		
+		"3531"
+		{
+			"name"				"sword deflect"
+			"attribute_class"	"sword_deflect"
+			"description_string"	"#Attrib_Sword_Deflect"
+			"description_format"	"value_is_additive"
+			"hidden"			"0"
+			"stored_as_integer"	"1"
+			"effect_type"	"positive"
+		}
+		
+		"3532"
+		{
+			"name"				"sword push"
+			"attribute_class"	"sword_push"
+			"description_string"	"#Attrib_Sword_Push"
+			"description_format"	"value_is_additive"
+			"hidden"			"0"
+			"stored_as_integer"	"1"
+			"effect_type"	"positive"
+		}
+		
+		"3533"
+		{
+			"name"	"sniper no charge real"
+			"attribute_class"	"mod_sniper_no_charge"
+			"description_string"	"#Attrib_SniperNoChargeReal"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		
+		"3534"
+		{
+			"name"	"attack while cloak"
+			"attribute_class"	"attack_while_cloak"
+			"description_string"	"#Attrib_AttackWhileCloaked"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"armory_desc"	"on_wearer"
+			"stored_as_integer"	"0"
+		}
+		
+		"3535"
+		{
+			"name"	"damage bonus while undisguised"
+			"attribute_class"		"mult_dmg_undisguised"
+			"description_string"	"#Attrib_DmgBonus_Undisguised"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		
+		"3536"
+		{
+			"name"	"mod pda builds minidispenser"
+			"attribute_class"		"allows_building_mini_dispenser"
+			"description_string"	"#Attrib_Mini_Dispenser"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		
+		"3537"
+		{
+			"name"	"mod weapon builds speedpad"
+			"attribute_class"		"teleporter_is_speedpad"
+			"description_string"	"#Attrib_Speed_Teleporter"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		
+		"3538"
+		{
+			"name"	"engineer dispenser build rate multiplier"
+			"attribute_class"	"dispenser_build_rate_multiplier"
+			"description_string"	"#Attrib_Dispenser_Build_Rate"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		
+		"3539"
+		{
+			"name"	"jump deployed"
+			"attribute_class"	"allow_jump_while_deployed"
+			"description_string"	"#Attrib_Deployed_Jump"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"armory_desc"	"on_wearer"
+			"stored_as_integer"	"0"
+		}
+		
+		"3540"
+		{
+			"name"	"duckwalk deployed"
+			"attribute_class"	"allow_duckwalks_deployed"
+			"description_string"	"#Attrib_Deployed_duckwalk"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"armory_desc"	"on_wearer"
+			"stored_as_integer"	"0"
+		}
+		
+		"3541"
+		{
+			"name"	"bullets per shot penalty"
+			"attribute_class"	"mult_bullets_per_shot"
+			"description_string"	"#Attrib_BulletsPerShot_Penalty"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		
+		"3542"
+		{
+			"name"	"has gravity"
+			"attribute_class"	"projectile_has_gravity"
+			"description_string"	"#Attrib_Projectile_Has_Gravity"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"neutral"
+			"stored_as_integer"	"0"
+		}
+		
+		"3543"
+		{
+			"name"	"bouncer"
+			"attribute_class"	"projectile_bounce"
+			"description_string"	"#Attrib_Projectile_Bounce"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"neutral"
+			"stored_as_integer"	"0"
+		}
+		
+		"3544"
+		{
+			"name"	"infection"
+			"attribute_class"	"can_infect"
+			"description_string"	"#Attrib_Infection"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"neutral"
+			"stored_as_integer"	"0"
+		}
+		
+		"3545"
+		{
+			"name"	"gib overkill"
+			"attribute_class"	"gib_on_overkill"
+			"description_string"	"#Attrib_Overkill_Gib"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"neutral"
+			"stored_as_integer"	"0"
+		}
+		
+		"3546"
+		{
+			"name"	"maxammo primary override"
+			"attribute_class"	"override_maxammo_primary"
+			"description_string"	"#Attrib_MaxAmmo_Override"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"neutral"
+			"stored_as_integer"	"0"
+		}
+		
+		"3547"
+		{
+			"name"	"maxammo secondary override"
+			"attribute_class"	"override_maxammo_secondary"
+			"description_string"	"#Attrib_MaxAmmo_Override"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"neutral"
+			"stored_as_integer"	"0"
+		}
+		
+		"3548"
+		{
+			"name"	"waste clip"
+			"attribute_class"	"waste_clip"
+			"description_string"	"#Attrib_Wasteclip"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		
+		"3549"
+		{
+			"name"	"grenades always explode on contract"
+			"attribute_class"	"grenade_always_explode_on_hit"
+			"description_string"	"#Attrib_GrenadeContractHit"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		
+		"3550"
+		{
+			"name"	"sapper_explodes_on_det"
+			"attribute_class"	"sapper_explodes_on_det"
+			"description_string"	"#Attrib_Sapper_Dynamite"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		
+		"3551"
+		{
+			"name"	"bullets per shot bonus hack"
+			"attribute_class"	"mult_bullets_per_shot_hack"
+			"description_string"	"#Attrib_BulletsPerShot_Bonus"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		
+		"3552"
+		{
+			"name"	"clear_effects"
+			"attribute_class"	"clear_effects"
+			"description_string"	"#Attrib_Heal_StatusEffects"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		
+		"3553"
+		{
+			"name"	"kill_combo_fire_rate_boost"
+			"attribute_class"	"kill_combo_fire_rate_boost"
+			"description_string"	"#Attrib_KillCombo_Rate_Boost"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		
+		"3554"
+		{
+			"name"	"projectile heat seek"
+			"attribute_class"	"mod_projectile_heat_seek_power"
+			"description_string"	"#Attrib_Heat_Seek_Power"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		
+		"3555"
+		{
+			"name"	"projectile friction"
+			"attribute_class"	"projectile_friction"
+			"description_string"	"#Attrib_Projectile_Gravity_Friction"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		
+		"3556"
+		{
+			"name"	"projectile elasticity"
+			"attribute_class"	"projectile_elasticity"
+			"description_string"	"#Attrib_Projectile_Gravity_Elasticity"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"stored_as_integer"	"0"
+		}
+		
+		//End of Line
+		// IF AN ATTIRBUTE DOESN'T WORK, CHECK THE FUCKING description_format INPUT
+	}
+}

@@ -1,0 +1,45 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\weapons\w_revolver\w_revolver_dm2"
+	"$bumpmap" "models/weapons/w_revolver/w_revolver_dm2_normal"
+	
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "2"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"	"[.1 .5 1]"
+	
+	"$halflambert" "1"
+	"$basemapalphaphongmask" "1"
+	
+	"$rimlight" "1"						
+	"$rimlightexponent" "3"				
+	"$rimlightboost" ".50"
+	
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	
+	// Glow
+	$glowcolor 1
+
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+	}
+}

@@ -1,0 +1,46 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/weapons/w_leadpipe_merc/lead_pipe"
+
+	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost" "5"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 1]"
+	
+	"$halflambert" "1"
+	"$basemapalphaphongmask" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "20"	
+	"$rimlightboost" ".25"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	
+	// Glow
+	$glowcolor 1
+
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+	}
+}
+
+

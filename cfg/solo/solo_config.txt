@@ -1,0 +1,11 @@
+#base maps/solo_live.txt
+#base maps/solo_valve.txt
+#base maps/solo_community.txt
+
+//#base maps/solo_bundled.txt
+//#base maps/solo_workshop.txt
+
+solo_config
+{
+	
+}
