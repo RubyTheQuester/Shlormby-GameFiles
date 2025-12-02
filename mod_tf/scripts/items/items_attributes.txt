@@ -635,6 +635,16 @@
 			"stored_as_integer"	"0"
 		}
 		
+		"3557"
+		{
+			"name"	"reload time decreased with reduced health"
+			"attribute_class"	"mult_reload_time_with_reduced_health"
+			"description_string"	"#Attrib_ReloadTimeDecreasedWithReducedHealth"
+			"description_format"	"value_is_inverted_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+		}
+		
 		//End of Line
 		// IF AN ATTIRBUTE DOESN'T WORK, CHECK THE FUCKING description_format INPUT
 	}
