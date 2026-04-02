@@ -73,6 +73,12 @@
 					"attribute_class"	"mult_maxammo_primary"
 					"value"	"0.5"
 				}
+				
+				"is sourcemod mod item"
+				{
+					"attribute_class"  "is_sourcemod_mod_item"
+					"value"			   "2"
+				}
 			}
 		}
 		
@@ -450,7 +456,7 @@
 					"value"			"0.8"
 				}
 				
-				"maxammo primary reduced"
+				"maxammo primary increased"
 				{
 					"attribute_class"	"mult_maxammo_primary"
 					"value"	"2"
@@ -465,12 +471,17 @@
 		"34608"
 		{
 			"name"	"Panic-Attack Cool"
-			"prefab"	"moditem_testing_prefab weapon_shotgun_multiclass"
+			"prefab"	"moditem_testing_prefab weapon_shotgun"
 			
 			"item_name"	"#TF_Weapon_Shotgun_Panic"
 			
 			"image_inventory"				"backpack/crafting/token_Secondary"
 			"model_player"	"models/workshop/weapons/c_models/c_trenchgun/c_trenchgun.mdl"
+			
+			"used_by_classes"
+			{
+				"engineer"		"1"
+			}
 			
 			"attributes"
 			{
@@ -488,11 +499,11 @@
 				//}
 				
 				// This causes the reload thing
-				"auto fires full clip penalty"
-				{
-					"attribute_class" 	"auto_fires_full_clip"
-					"value" "1"
-				}
+				//"auto fires full clip penalty"
+				//{
+				//	"attribute_class" 	"auto_fires_full_clip"
+				//	"value" "1"
+				//}
 				
 				"fire rate bonus with reduced health"
 				{
