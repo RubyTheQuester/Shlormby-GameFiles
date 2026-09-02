@@ -1,3 +1,22 @@
+Version 0.1.4
+
+Last updated
+- September 2, 2026
+
+Changelog
+- 3 New "Hearts" for Mercenary
+-- Faulty Uberheart 1: Chance for uber on fatal damage
+-- Faulty Uberheart 2: Chance for uber on any damge
+-- Faulty Teleporter 1: Chance to teleport to spawn on fatal damage
+
+- 2 Ammo Backpacks for Mercenary
+-- Ammo Backpack 1: More ammo from pickups, less from dispensers
+-- Ammo Backpack 2: More max ammo, less ammo gain from dispensers
+
+- Fixed Merc Pistol Muzzle Flash Weirdness
+
+- Added Temp Merc Knife
+===============
 Version 0.1.3
 
 Last updated
