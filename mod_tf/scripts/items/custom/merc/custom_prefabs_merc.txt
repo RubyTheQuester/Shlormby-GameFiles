@@ -399,6 +399,30 @@
 			
 			"attributes"
 			{
+				"syringe heal"
+				{
+					"attribute_class"	"syringe_heal"
+					"value" "36"
+				}
+				
+				"infection"
+				{
+					"attribute_class"	"can_infect"
+					"value" "30"
+				}
+				
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"	"0"
+				}
+				
+				"clear_effects"
+				{
+					"attribute_class"	"clear_effects"
+					"value" "1"
+				}
+				
 				"is sourcemod mod item"
 				{
 					"attribute_class"  "is_sourcemod_mod_item"
@@ -428,7 +452,7 @@
 			"anim_slot"	"OVERRIDE"
 			"loadout_animation" 	"ACT_MERC_STAND_ASSAULT_RIFLE"
 			
-			"image_inventory"		"backpack/weapons/c_models/merc/c_pistol/c_pistol"
+			"image_inventory"	"backpack/crafting/token_primary"
 			
 			"model_player"	"models/weapons/v_models/v_assault_rifle_dm.mdl"
 			"model_world"	"models/weapons/w_models/w_assault_rifle.mdl"
@@ -470,42 +494,150 @@
 			"particle_suffix"		"pistol"
 		}
 		
-		"weapon_merc_smg"
+		"weapon_combatknife"
 		{
-			"item_class"	"tf_weapon_smg_medic"
+			"item_class"	"tf_weapon_knife_merc"
 			
-			"show_in_armory"	"1"
-			"item_type_name"	"#TF_Weapon_SMG"
+			"item_type_name"	"#TF_Weapon_CombatKnife"
+			"item_name"			"#TF_Weapon_CombatKnife"
 			
-			"item_name"	"#TF_Weapon_Syringegun_Hitscan"
-			"item_slot"	"primary"
+			"item_slot"	"melee"
 			
-			"image_inventory"				"backpack/weapons/c_models/c_mat49/c_mat49"
+			"image_inventory"	"backpack/crafting/token_melee"
 			
-			"model_player"	"models\weapons\v_models\v_smg_medic.mdl"
-			"model_world"	"models/weapons/w_models/w_smg_medic.mdl"
+			"model_player"	"models\weapons\v_models\v_classic_knife.mdl"
+			"model_world"	"models/weapons/w_models/w_classic_knife.mdl"
 			
 			"anim_slot"	"OVERRIDE"
-			"loadout_animation" 	"ACT_MERC_STAND_SMG_MERCENARY"
+			"loadout_animation" 	"ACT_MERC_STAND_KNIFE"
+			
+			"static_attrs"
+			{
+				"min_viewmodel_offset"		"10 0 -7"
+			}
 			
 			"attributes"
 			{
-				"maxammo primary override"
+				"is sourcemod mod item"
+				{
+					"attribute_class"  "is_sourcemod_mod_item"
+					"value"			   "1"
+				}
+			}
+			
+			"mouse_pressed_sound"	"ui/item_metal_weapon_pickup.wav"
+			"drop_sound"		"ui/item_metal_weapon_drop.wav"
+		}
+		
+		
+		"weapon_dynamite_merc"
+		{
+			"enabled"	"1"
+			"item_class"	"tf_weapon_dynamite"
+			
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Dynamite"
+			
+			"item_name"	"#TF_Weapon_Dynamite"
+			"item_slot"	"secondary"
+			
+			"item_logname"	"grenadelauncher_mercenary"
+			"item_iconname"	"grenadelauncher_mercenary"
+			
+			"image_inventory"	"backpack/crafting/token_secondary"
+			
+			"model_player"	"models/weapons/v_models/v_grenadelauncher_dm.mdl"
+			"model_world"	"models/weapons/w_models/w_grenadelauncher_dm.mdl"
+			
+			"attributes"
+			{
+				"maxammo secondary override"
 				{
 					"attribute_class"	"override_maxammo_primary"
-					"value"	"90"
+					"value"	"10"
 				}
 				
 				"is sourcemod mod item"
 				{
 					"attribute_class"  "is_sourcemod_mod_item"
-					"value"			   "2"
+					"value"			   "1"
+				}
+				
+				"sticky detonate mode"
+				{
+					"attribute_class"	"set_detonate_mode"
+					"value"	"3"
+				}
+				
+				"sticky_touch_explode"
+				{
+					"attribute_class"	"sticky_touch_explode"
+					"value"				"1"
 				}
 			}
 			
-			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
-			"drop_sound"		"ui/item_light_gun_drop.wav"
-			"particle_suffix"		"pistol"
+			"static_attrs"
+			{
+				"min_viewmodel_offset"				"10 0 -6"
+			}
+			
+			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
+			"drop_sound"		"ui/item_heavy_gun_drop.wav"
+		}
+		
+		"weapon_stachel"
+		{
+			"enabled"	"1"
+			"item_class"	"tf_weapon_stachel"
+			
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Stachel"
+			
+			"item_name"	"#TF_Weapon_Stachel"
+			"item_slot"	"secondary"
+			
+			"item_logname"	"grenadelauncher_mercenary"
+			"item_iconname"	"grenadelauncher_mercenary"
+			
+			"image_inventory"	"backpack/crafting/token_secondary"
+			
+			"model_player"	"models/weapons/v_models/v_grenadelauncher_dm.mdl"
+			"model_world"	"models/weapons/w_models/w_grenadelauncher_dm.mdl"
+			
+			"attributes"
+			{
+				"maxammo secondary override"
+				{
+					"attribute_class"	"override_maxammo_primary"
+					"value"	"10"
+				}
+				
+				"is sourcemod mod item"
+				{
+					"attribute_class"  "is_sourcemod_mod_item"
+					"value"			   "1"
+				}
+				
+				"custom projectile model"
+				{
+					"attribute_class"	"custom_projectile_model"
+					"value"	"models/weapons/w_models/w_grenade_grenadelauncher_dm.mdl"
+				}
+				
+				"max pipebombs increased"
+				{
+					"attribute_class"	"add_max_pipebombs"
+					"value" "-7"
+				}
+			}
+			
+			"static_attrs"
+			{
+				"min_viewmodel_offset"				"10 0 -6"
+			}
+			
+			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
+			"drop_sound"		"ui/item_heavy_gun_drop.wav"
 		}
 		//END OF THE PREFABS LINE
 	}

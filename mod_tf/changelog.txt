@@ -1,3 +1,43 @@
+Version 0.1.5
+
+Last updated
+- September 9, 2026
+
+Changelog
+- Various 4:3 Stuff
+-- Shifted Random Class and Merc to fit
+
+- Ragdoll speed doesn't reset on death
+
+- Added 4 Merc Weapons
+- Tactical Pistol
+-- Crit on headshot
+-- Wastes clip on reload
+- Silenced Revolver
+-- Crit on headshot
+-- Can be used while cloaked
+- Dyanamite
+-- Prototype
+- Stachel
+-- Prototype
+
+- Bouncer stats tweaked
+-- Upchuck added, gravity and other things adjusted
+-- Reuses Quake trails for now for lols
+
+- Finalized Faulty UberHeart
+- Finalized Roamer Backup
+- Finalized Combat Knife
+
+- Updated Armory Listings
+
+- mp_disable_respawn_times 3
+-- Disable respawns for only human players
+
+- Changed colors in loadout for Shlromby Stuff
+
+- Probably some shit I forgot
+===============
 Version 0.1.4
 
 Last updated

@@ -1,0 +1,83 @@
+armory_config
+{
+	
+	//===============================//
+	//=============Melee=============//
+	//===============================//
+	
+	"Mercenary Leadpipe"
+	{
+		Cost 0
+	}
+	
+	"Mercenary Medkit"
+	{
+		Cost 0
+	}
+	
+	"Mercenary Knife"
+	{
+		Cost 0
+	}
+	
+	//===================================//
+	//=============Secondary=============//
+	//===================================//
+	
+	"Mercenary Revolver"
+	{
+		Cost 0
+	}
+	"Mercenary Shotgun"
+	{
+		Cost 0
+	}
+		
+	//=================================//
+	//=============Primary=============//
+	//=================================//
+	
+	"Mercenary Rocket Launcher"
+	{
+		Cost 0
+	}
+	
+	"China Lake"
+	{
+		Cost 0
+	}
+	
+	"Assault Rifle"
+	{
+		Cost 0
+	}
+	
+	//===================================//
+	//=============Equipment=============//
+	//===================================//
+	
+	"Mercenary Fall Boots"
+	{
+		Cost 0
+	}
+	
+	"Mercenary Gunboats"
+	{
+		Cost 0
+	}
+	
+	"Mercenary Backpack"
+	{
+		Cost 0
+	}
+	
+	"Faulty Uberheart"
+	{
+		Cost 0
+	}
+	
+	"Stealth Device"
+	{
+		Cost 0
+	}
+}
