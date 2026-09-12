@@ -1,3 +1,25 @@
+Version 0.1.6
+
+Last updated
+- September 11, 2026
+
+- Merc Stuff
+-- Tommy Gun
+-- Dynamite
+-- Overhauled Passives Abilities
+-- Redone Gadgets
+-- Taunt Bond Sound
+-- Presets now work
+
+- Currently using MAPBASE's VCD loader instead of someone else'screen
+- Various Weapons Tweaks
+- Removed Sniper Tracers due to odd bug with spy disguises
+- tf_max_voice_speak_delay is no dev only
+- Tranq now uses OF's tranq sounds
+
+- TF Bot Merc Minor Support
+
+===============
 Version 0.1.5
 
 Last updated

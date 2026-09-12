@@ -70,6 +70,9 @@
 	
 			"item_slot"	"primary"
 			
+			"item_logname"	"rocketlauncher_mercenary"
+			"item_iconname"	"rocketlauncher_mercenary"
+			
 			"static_attrs"
 			{
 				"single wep deploy time decreased"		"0.85"
@@ -219,163 +222,41 @@
 					"attribute_class"	"set_silent_killer"
 					"value" "1"
 				}
-
-				"attack while cloak"
-				{
-					"attribute_class"	"attack_while_cloak"
-					"value" "1"
-				}
 			}
 		}
 		
 		"34812"
 		{
-			"name"		"Pistol TDC"
-			"prefab"	"moditem_merc_prefab_custom weapon_pistol_merc"
+			"name"		"Dynamite Bundle"
+			"prefab"	"moditem_merc_prefab weapon_dynamite"
 			
-			"item_name"	"#TF_Weapon_Pistol_TDC"
+			"item_slot"	"secondary"
 			
-			"image_inventory"	"backpack/crafting/token_secondary"
+			"item_logname"	"dynamite_bundle"
+			"item_iconname"	"dynamite_bundle"
 			
-			"attributes"
-			{
-				"revolver use hit locations"
-				{
-					"attribute_class"	"set_weapon_mode"
-					"value"	"1"
-				}
-				
-				"damage penalty"
-				{
-					"attribute_class"	"mult_dmg"
-					"value"	"0.80"
-				}
-				
-				"clip size penalty"
-				{
-					"attribute_class"	"mult_clipsize"
-					"value" "0.80"
-				}
-				
-				"maxammo secondary override"
-				{
-					"attribute_class"	"override_maxammo_secondary"
-					"value"	"48"
-				}
-				
-				"fire rate penalty"
-				{
-					"attribute_class"	"mult_postfiredelay"
-					"value"	"1.5"
-				}
-				
-				"waste clip"
-				{
-					"attribute_class"	"waste_clip"
-					"value"	"1"
-				}
-				
-			}
 		}
-		
 		
 		"34813"
 		{
-			"name"		"Silenced Revolver"
-			"prefab"	"moditem_merc_prefab_custom weapon_revolver_merc"
+			"name"		"TommyGun"
+			"prefab"	"moditem_merc_prefab weapon_tommygun"
 			
-			"item_name"	"#TF_Weapon_Silence_Revolver"
+			"item_slot"	"primary"
 			
-			"image_inventory"	"backpack/crafting/token_secondary"
+			"item_logname"	"tommygun"
+			"item_iconname"	"tommygun"
 			
-			"attributes"
-			{
-				"silent killer"
-				{
-					"attribute_class"	"set_silent_killer"
-					"value" "1"
-				}
-				
-				"attack while cloak"
-				{
-					"attribute_class"	"attack_while_cloak"
-					"value" "1"
-				}
-				
-				"revolver use hit locations"
-				{
-					"attribute_class"	"set_weapon_mode"
-					"value"	"1"
-				}
-				
-				"damage penalty"
-				{
-					"attribute_class"	"mult_dmg"
-					"value"	"0.85"
-				}
-				
-				"maxammo secondary override"
-				{
-					"attribute_class"	"override_maxammo_secondary"
-					"value"	"12"
-				}
-				
-				"fire rate penalty"
-				{
-					"attribute_class"	"mult_postfiredelay"
-					"value"	"1.5"
-				}
-			}
 		}
 		
 		// EQUIPMENT 
-		
-		"34850"
-		{
-			"name"		"Mercenary Fall Boots"
-			"prefab"	"moditem_merc_prefab_gadget weapon_merc_equipment"
-			
-			"item_name"	"#TF_Weapon_FallBoots"
-			
-			"item_slot"	"equipment"
-			
-			"image_inventory"	"backpack/workshop/player/items/soldier/mantreads/mantreads"
-			"model_player"		"models/workshop/player/items/soldier/mantreads/mantreads.mdl"
-			
-			"attributes"
-			{
-				"allowed in medieval mode"
-				{
-					"attribute_class"	"allowed_in_medieval_mode"
-					"value"	"1"
-				}
-				
-				"mod_air_control_blast_jump"
-				{
-					"attribute_class"	"mod_air_control_blast_jump"
-					"value" "3.0"
-				}
-				
-				"cancel falling damage"
-				{
-					"attribute_class"	"cancel_falling_damage"
-					"value" "1"
-				}
-				
-				"max health additive penalty"
-				{
-					"attribute_class"	"add_maxhealth"
-					"value" "-25"
-				}
-			}
-		}
 		
 		"34851"
 		{
 			"name"		"Mercenary Gunboats"
 			"prefab"	"moditem_merc_prefab_gadget weapon_merc_equipment"
 			
-			"item_name"	"#TF_Weapon_Gunboats_Merc"
+			"item_name"	"#TF_Weapon_MercGadget_Boots"
 			
 			"item_slot"	"equipment"
 			
@@ -407,11 +288,18 @@
 					"value"				"1"
 				}
 				
+				"mod_air_control_blast_jump"
+				{
+					"attribute_class"	"mod_air_control_blast_jump"
+					"value" "3.0"
+				}
+				
 				"maxammo secondary reduced"
 				{
 					"attribute_class"	"mult_maxammo_secondary"
 					"value"	"0.5"
 				}
+				
 			}
 		}
 		
@@ -420,7 +308,7 @@
 			"name"		"Mercenary Backpack"
 			"prefab"	"moditem_merc_prefab_gadget weapon_merc_equipment"
 			
-			"item_name"	"Roamer Backpack"
+			"item_name"	"#TF_Weapon_MercGadget_Backpack"
 			
 			"item_slot"	"equipment"
 			
@@ -471,10 +359,10 @@
 		
 		"34854"
 		{
-			"name"		"Faulty Uberheart"
+			"name"		"Faulty Uberheart" //Respawn Mechanic Ref
 			"prefab"	"moditem_merc_prefab_gadget weapon_merc_equipment"
 			
-			"item_name"	"Faulty Uberheart"
+			"item_name"	"#TF_Weapon_MercGadget_Uberheart"
 			
 			"item_slot"	"equipment"
 			
@@ -509,10 +397,10 @@
 		
 		"34855"
 		{
-			"name"		"Stealth Device"
+			"name"		"Stealth Device" //Cloak Powerup Ref
 			"prefab"	"moditem_merc_prefab_gadget weapon_merc_equipment"
 			
-			"item_name"	"Stealth Device"
+			"item_name"	"#TF_Weapon_MercGadget_Cloak"
 			
 			"item_slot"	"equipment"
 			
