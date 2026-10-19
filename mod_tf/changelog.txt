@@ -13,8 +13,6 @@ Last updated
 - Added various merc bucket icons
 - obj_dispenser killicon
 
-- TF Bot Merc Minor Support
-
 ===============
 Version 0.1.6
 
