@@ -1,3 +1,21 @@
+Version 0.1.7
+
+Last updated
+- October 19, 2026
+
+- Added Sniper Rifle that can be reloaded
+- Added Nailgun concept
+- Added Dynamite Bomblets
+- Added Merc Fists
+- Added proto-type autoshotgun for Heavy
+- Turned Merc lead-pipe to punkbat so real leadpipe can co-exist
+
+- Added various merc bucket icons
+- obj_dispenser killicon
+
+- TF Bot Merc Minor Support
+
+===============
 Version 0.1.6
 
 Last updated

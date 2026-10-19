@@ -504,86 +504,143 @@
 			"xifier_class_remap"	"weapon_targe"
 		}
 		
-		"34608"
+		"34609"
 		{
-			"name"	"Panic-Attack Cool"
-			"prefab"	"moditem_testing_prefab weapon_shotgun"
+			"name"	"Sniper Rifle Reload"
+			"prefab" "moditem_testing_prefab weapon_sniperrifle_reload"
 			
-			"item_name"	"#TF_Weapon_Shotgun_Panic"
+			"item_name"	"Hunting Revolver"
 			
-			"image_inventory"				"backpack/crafting/token_Secondary"
-			"model_player"	"models/workshop/weapons/c_models/c_trenchgun/c_trenchgun.mdl"
+			"image_inventory"				"backpack/crafting/token_primary"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			
+			"model_player"	"models\weapons\v_models\v_revrifle_sniper.mdl"
+			"model_world"	"models/weapons/w_models/w_revrifle_sniper.mdl"
+			
+			"attach_to_hands"				"0"
+			"model_attach_to_hands"			"1"
 			
 			"used_by_classes"
 			{
-				"engineer"		"1"
+				"sniper"		"1"
 			}
 			
 			"attributes"
 			{
-				"clip size penalty HIDDEN"
+				"no_unscope"
 				{
-					"attribute_class"	"mult_clipsize"
-					"value"	"0.75"
+					"attribute_class"	"no_unscope"
+					"value" "1"
 				}
 				
-				// This causes auto fire
-				//"auto fires when full"
-				//{
-				//	"attribute_class"	"auto_fires_when_full"
-				//	"value"	"1"
-				//}
-				
-				// This causes the reload thing
-				//"auto fires full clip penalty"
-				//{
-				//	"attribute_class" 	"auto_fires_full_clip"
-				//	"value" "1"
-				//}
-				
-				"fire rate bonus with reduced health"
+				"sniper_crit_quickscope_allowed"
 				{
-					"attribute_class" 	"mult_postfiredelay_with_reduced_health"
-					"value" "0.25"
+					"attribute_class"	"sniper_crit_quickscope_allowed"
+					"value" "1"
 				}
 				
-				"reload time decreased with reduced health"
+				"sniper zoom penalty"
 				{
-					"attribute_class" 	"mult_reload_time_with_reduced_health"
-					"value" "0.30"
+					"attribute_class"	"mult_zoom_fov"
+					"value"	"1.75"
 				}
 				
-				//"panic_attack"
-				//{
-				//	"attribute_class"	"panic_attack"
-				//	"value"	"1"
-				//}
-				
-				"panic_attack_negative"
+				"sniper no charge real"
 				{
-					"attribute_class" 	"panic_attack_negative"
-					"value" "1.5"
+					"attribute_class"	"mod_sniper_no_charge"
+					"value" "1"
 				}
 				
-				//"Reload time decreased"
-				//{
-				//	"attribute_class"	"mult_reload_time"
-				//	"value"	"0.66"
-				//}
-			}
-			
-			"used_by_classes"
-			{
-				"engineer"	"primary"
-			}
-			
-			"visuals"
-			{
-				"sound_single_shot"		"Weapon_BackShot_Shotty.Single"
-				"sound_burst"			"Weapon_BackShot_Shotty.SingleCrit"
+				"damage penalty"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"	"0.90"
+				}
 			}
 		}
 		
+		"34610"
+		{
+			"name"				"Nailgun"
+			"prefab"			"moditem_testing_prefab weapon_nailgun"
+			
+			"item_class"		"tf_weapon_nailgun"
+			
+			"item_name"			"#TF_Weapon_Nailgun"
+			
+			"image_inventory"				"backpack/crafting/token_primary"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			
+			"model_player"	"models/weapons/c_models/c_syringegun/c_syringegun.mdl"
+			
+			"used_by_classes"
+			{
+				"scout"		"1"
+			}
+		}
+		
+		"34611"
+		{
+			"name"	"Auto-Shotgun"
+			"prefab"	"moditem_prefab weapon_shotgun"
+			
+			"item_name"	"#TF_Weapon_AutoShotgun"
+			
+			"image_inventory"	"backpack/weapons/c_models/merc/c_ssg/c_ssg"
+			
+			"model_player"	"models/weapons/v_models/v_supershotgun_mercenary.mdl"
+			"model_world"	"models/weapons/w_models/w_supershotgun.mdl"
+			
+			"attach_to_hands"				"0"
+			"model_attach_to_hands"			"1"
+
+			"used_by_classes"
+			{
+				"heavy"		"secondary"
+			}
+			
+			"attributes"
+			{
+				"fire rate bonus"
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value"	"0.5"
+				}
+				
+				"reload time increased"
+				{
+					"attribute_class"	"mult_reload_time"
+					"value"	"1.75"
+				}
+				
+				"clip size bonus"
+				{
+					"attribute_class"	"mult_clipsize"
+					"value"				"2"
+				}
+				
+				"remaining clip spread multiplier negative"
+				{
+					"attribute_class"	"remaining_clip_spread_mult"
+					"value"				"5"
+				}
+				
+				"is community contributed item"
+				{
+					"attribute_class"  "is_community_contributed_item"
+					"value"			   "1"
+				}
+				
+				"shotgun reload override"
+				{
+					"attribute_class"  "mod_reload_singly_override"
+					"value"			   "1"
+				}
+			}
+		}
+	
 		//END OF THE LINE
 	}
 }

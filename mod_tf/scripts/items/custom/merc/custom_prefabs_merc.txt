@@ -452,7 +452,7 @@
 			"anim_slot"	"OVERRIDE"
 			"loadout_animation" 	"ACT_MERC_STAND_ASSAULT_RIFLE"
 			
-			"image_inventory"	"backpack/crafting/token_primary"
+			"image_inventory" "backpack/weapons/c_models/merc/c_assualtrifle/c_assualtrifle"
 			
 			"model_player"	"models/weapons/v_models/v_assault_rifle_dm.mdl"
 			"model_world"	"models/weapons/w_models/w_assault_rifle.mdl"
@@ -503,7 +503,7 @@
 			
 			"item_slot"	"melee"
 			
-			"image_inventory"	"backpack/crafting/token_melee"
+			"image_inventory" "backpack/weapons/c_models/merc/c_combatknife/c_combatknife"
 			
 			"model_player"	"models\weapons\v_models\v_classic_knife.mdl"
 			"model_world"	"models/weapons/w_models/w_classic_knife.mdl"
@@ -543,7 +543,7 @@
 			"item_logname"	"dynamite_bundle"
 			"item_iconname"	"dynamite_bundle"
 			
-			"image_inventory"	"backpack/crafting/token_secondary"
+			"image_inventory" "backpack/weapons/c_models/merc/c_dynamite/c_dynamite"
 			
 			"anim_slot"	"OVERRIDE"
 			"loadout_animation" 	"ACT_MERC_STAND_DYNAMITE"
@@ -564,7 +564,6 @@
 					"attribute_class"	"custom_projectile_model"
 					"value"	"models/weapons\w_models\w_dynamite.mdl"
 				}
-				
 				
 				"sticky detonate mode2"
 				{
@@ -607,7 +606,7 @@
 			"anim_slot"	"OVERRIDE"
 			"loadout_animation" 	"ACT_MERC_STAND_TOMMYGUN_MERCENARY"
 			
-			"image_inventory"	"backpack/crafting/token_primary"
+			"image_inventory" "backpack/weapons/c_models/merc/c_tommygun/c_tommygun"
 			
 			"model_player"	"models/weapons/v_models/v_tommygun_merc.mdl"
 			"model_world"	"models/weapons/w_models/w_tommygun.mdl"
@@ -635,6 +634,50 @@
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"		"ui/item_light_gun_drop.wav"
 			"particle_suffix"		"pistol"
+		}
+		
+		"weapon_fists_merc"
+		{
+			"item_class"	"tf_weapon_fists_merc"
+			
+			"item_type_name"	"#TF_Weapon_Fists"
+			"item_name"			"#TF_Weapon_Fists"
+			
+			"item_slot"	"melee"
+			
+			"image_inventory" 	"backpack/crafting/token_melee"
+			
+			"model_player"	"models\weapons\v_models\v_berserk_merc.mdl"
+			
+			"anim_slot"	"OVERRIDE"
+			"loadout_animation" 	"ACT_MERC_STAND_BERSERK"
+			
+			"static_attrs"
+			{
+				"min_viewmodel_offset"		"10 0 -7"
+			}
+			
+			"attributes"
+			{
+				"is sourcemod mod item"
+				{
+					"attribute_class"  "is_sourcemod_mod_item"
+					"value"			   "1"
+				}
+			}
+			
+			"visuals"
+			{
+				"animation_replacement"
+				{
+					"ACT_VM_IDLE"	"ACT_FISTS_VM_IDLE"
+					"ACT_VM_HITLEFT"	"ACT_FISTS_VM_HITLEFT"
+					"ACT_VM_HITRIGHT"	"ACT_FISTS_VM_HITRIGHT"
+					"ACT_VM_SWINGHARD"	"ACT_FISTS_VM_SWINGHARD"
+					"ACT_VM_DRAW"	"ACT_FISTS_VM_DRAW"
+				}
+			}
+
 		}
 		//END OF THE PREFABS LINE
 	}

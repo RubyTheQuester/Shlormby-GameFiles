@@ -6,7 +6,6 @@
 #base merc/custom_items_merc.txt
 
 //#base custom_weapons_oddity.txt
-
 "items_game"
 {
 	"game_info"
