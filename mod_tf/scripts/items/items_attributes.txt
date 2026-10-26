@@ -471,8 +471,8 @@
 		
 		"3542"
 		{
-			"name"	"has gravity"
-			"attribute_class"	"projectile_has_gravity"
+			"name"	"rocket gravity"
+			"attribute_class"	"mod_rocket_gravity"
 			"description_string"	"#Attrib_Projectile_Has_Gravity"
 			"description_format"	"value_is_additive"
 			"hidden"	"0"
@@ -482,8 +482,8 @@
 		
 		"3543"
 		{
-			"name"	"bouncer"
-			"attribute_class"	"projectile_bounce"
+			"name"	"rocket bounce"
+			"attribute_class"	"mod_rocket_bounce"
 			"description_string"	"#Attrib_Projectile_Bounce"
 			"description_format"	"value_is_additive"
 			"hidden"	"0"
@@ -800,9 +800,9 @@
 		
 		"3572"
 		{
-			"name"	"projectile_bounce_limit"
-			"attribute_class"	"projectile_bounce_limit"
-			"description_string"	"#Attrib_Projectile_Bounce"
+			"name"	"rocket bounce limit"
+			"attribute_class"	"mod_rocket_bounce_limit"
+			"description_string"	"#Attrib_Projectile_Bounce_Limit"
 			"description_format"	"value_is_additive"
 			"hidden"	"0"
 			"effect_type"	"neutral"
@@ -868,6 +868,30 @@
 			"description_string"	"#Attrib_shotgun_reload_override"
 			"description_format"	"value_is_additive"
 			"effect_type"	"neutral"
+			"stored_as_integer"	"0"
+		}
+		
+		"3579"
+		{
+			"name"	"set cloak is phase"
+			"attribute_class"	"ability_cloak_phase"
+			"description_string"	"#Attrib_CloakIsPhase"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"neutral"
+			"armory_desc"	"cloak_type"
+			"stored_as_integer"	"0"
+		}
+		
+		"3580"
+		{
+			"name"	"add organ on hit"
+			"attribute_class"	"add_organ_on_hit"
+			"description_string"	"#Attrib_UberchargeSavedOnHit"
+			"description_format"	"value_is_additive_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"armory_desc"	"on_hit"
 			"stored_as_integer"	"0"
 		}
 		

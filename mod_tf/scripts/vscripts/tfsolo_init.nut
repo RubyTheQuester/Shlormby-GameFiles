@@ -15,11 +15,6 @@ if (TFSOLO.IsSolo)
 {
 	IncludeScript("solo/soloinit.nut")
 }
-if (TFSOLO.IsSolo || TFSOLO.IsCampaign)
-{
-	IncludeScript("solo/credits.nut")
-}
-
 IncludeScript("solo/credits.nut")
 
 TFSOLO.CoreEventTag <- UniqueString()

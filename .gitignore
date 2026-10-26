@@ -45,3 +45,4 @@ config.cfg
 
 /mod_tf/scripts/talker/ref
 *.ain
+/mod_tf/scripts/weapons_unused

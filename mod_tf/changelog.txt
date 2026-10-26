@@ -1,7 +1,64 @@
-Version 0.1.7
+Version 1.9.2
+
+Last updated
+- October 26, 2026
+-----------------------
+- Interal version naming change
+-- dropped the first "0." from the versions, now doing a standard "major.minor[.build[.revision]]" versioning.
+--- Any version I can't remember the build of, is replaced with a "x"
+
+- Made various items have moditem_prefab instead of moditem_testing_prefab 
+
+- Merc Fists
+-- Reflect on swing
+-- 40 Damage
+-- Smack Delay of 0.2
+-- No more missing texture triangle
+-- Default taunt
+-- No random crits
+-- Fixed no swing on crit
+
+- Crowbar
+-- Smack delay of 0.15 to better match animation
+
+- Renamed Attributes for bouncing/gravity rockets
+-- mod_rocket_gravity
+-- mod_rocket_bounce
+-- mod_rocket_bounce_limit
+
+- Moved Medic SMG to custom_weapons.txt
+
+- Remove Dalokohs Bar taunt speed bonus
+
+- Restored hot hand's killstreak particles
+
+- sword_deflect now actives with the swing of tf_weaponbase_melee
+
+- Cloak Phase Watch added
+-- Extremely placeholder everything
+-- Why was this how valve did this oh my god
+
+- Vita-saw rework
+-- Vita-saw's organs now increase uberbuild rate
+-- Max of a multiplier of 3.75 at 13 organs
+
+===============
+Version 1.9.1
+
+Last updated
+- October 24, 2026
+-----------------------
+
+- Updated tfmod_bot_sniper_lasersight to work properly
+- Re-added stun effects for sandman
+- Updated tf_item_inventory.cpp, should do... something? 
+
+===============
+Version 1.7.x
 
 Last updated
 - October 19, 2026
+-----------------------
 
 - Added Sniper Rifle that can be reloaded
 - Added Nailgun concept
@@ -14,10 +71,11 @@ Last updated
 - obj_dispenser killicon
 
 ===============
-Version 0.1.6
+Version 1.6.x
 
 Last updated
 - September 11, 2026
+-----------------------
 
 - Merc Stuff
 -- Tommy Gun
@@ -36,10 +94,11 @@ Last updated
 - TF Bot Merc Minor Support
 
 ===============
-Version 0.1.5
+Version 1.5.x
 
 Last updated
 - September 9, 2026
+-----------------------
 
 Changelog
 - Various 4:3 Stuff
@@ -76,10 +135,11 @@ Changelog
 
 - Probably some shit I forgot
 ===============
-Version 0.1.4
+Version 1.4.x
 
 Last updated
 - September 2, 2026
+-----------------------
 
 Changelog
 - 3 New "Hearts" for Mercenary
@@ -95,25 +155,28 @@ Changelog
 
 - Added Temp Merc Knife
 ===============
-Version 0.1.3
+Version 1.3.x
 
 Last updated
 - September 2, 2026
+-----------------------
 
 Changelog
 - Merc Assault Rifle added
 - Custom Pose for loadout screen added
 - Something else i forgor
 ================
-Version 0.1.2
+Version 1.2.x
 
 Last updated
 - April 16, 2026
+-----------------------
 
 Changelog
 - Added more label credits for community contributed and sourcemod origin items
 ================
-Version 0.1.0
+Version 1.0.x
 
 Last updated
 - April 2, 2026
+-----------------------
