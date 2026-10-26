@@ -15,5 +15,5 @@ TFSOLO.BalancingFuncs.push(function(kv)
 	
 	prefab.RemoveSubKey("item_description")
 	
-	prefab.SetString("item_quality","moditem_rebalance")
+	prefab.SetString("item_quality","moditem_newstats")
 })
