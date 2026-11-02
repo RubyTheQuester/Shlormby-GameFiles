@@ -1,3 +1,20 @@
+Version 1.9.3.1
+
+Last updated
+- November 2, 2026
+-----------------------
+- Better Mercenary Bot AI
+-- Better selection of weapon to use based off of range and situtation
+
+- TF2C RPG, Nailgun, and Hunting Revovler Textures and Models (Including viewmodels animations)
+
+- Renenabled Oddity Weapons
+
+- Stats for Phase Watch
+
+- Updated english text file for new attirbutes and so on
+
+===============
 Version 1.9.2
 
 Last updated
